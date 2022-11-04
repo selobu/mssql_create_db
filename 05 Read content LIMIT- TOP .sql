@@ -1,0 +1,4 @@
+USE Test;
+SELECT TOP 20 * FROM [Usuario]
+WHERE id > 0
+ORDER BY id ASC
